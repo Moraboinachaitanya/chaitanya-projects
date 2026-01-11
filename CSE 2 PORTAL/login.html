@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login - Student Portal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #f2f2f2;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .login-box {
+            background: white;
+            width: 420px;
+            padding: 40px;
+            border-radius: 14px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+        }
+
+        .login-box h2 {
+            text-align: center;
+            color: #8B0000;
+            margin-bottom: 30px;
+        }
+
+        label {
+            font-weight: bold;
+            color: #333;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 15px;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+            gap: 15px;
+        }
+
+        .cancel-btn {
+            background: #e6ebf2;
+            color: #4a5568;
+            border: none;
+            padding: 12px;
+            width: 50%;
+            border-radius: 8px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        .login-btn {
+            background: #8B0000;
+            color: white;
+            border: none;
+            padding: 12px;
+            width: 50%;
+            border-radius: 8px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        .login-btn:hover {
+            background: #a00000;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="login-box">
+    <h2>Login</h2>
+
+    <form>
+        <label>Username (ID)</label>
+        <input type="text" placeholder="Enter your ID" required>
+
+        <label>Password</label>
+        <input type="password" placeholder="Enter your password" required>
+
+        <div class="buttons">
+            <button type="reset" class="cancel-btn">Cancel</button>
+            <button type="submit" class="login-btn">Login</button>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>

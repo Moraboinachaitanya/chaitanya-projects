@@ -1,0 +1,100 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* BACKGROUND */
+.bg {
+    min-height: 100vh;
+    background: #8b0000;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    color: white;
+}
+
+/* LOGO BOX */
+.logo {
+    background: white;
+    color: black;
+    padding: 10px 14px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* CENTER HEADER TEXT */
+.header-center {
+    text-align: center;
+}
+
+.header-center h2 {
+    font-size: 22px;
+}
+
+.header-center p {
+    margin: 4px 0;
+    font-size: 16px;
+}
+
+.header-center span {
+    font-size: 14px;
+}
+
+/* LOGIN BUTTON (LINK STYLE) */
+.login-btn {
+    background: white;
+    color: #8b0000;
+    padding: 8px 18px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* CARD */
+.card {
+    background: white;
+    width: 80%;
+    max-width: 900px;
+    margin: 100px auto;
+    padding: 50px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/* CARD TEXT */
+.card h1 {
+    font-size: 36px;
+}
+
+.card h3 {
+    color: #8b0000;
+    margin: 15px 0;
+}
+
+.card p {
+    color: #444;
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+/* MAIN BUTTON (LINK STYLE) */
+.primary-btn {
+    background: #8b0000;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}

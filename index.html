@@ -2,57 +2,78 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>CSE-2 Student Portal</title>
+    <title>KL Registration Portal</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f2f4f8;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 0;
         }
 
-        .card {
+        .container {
+            max-width: 700px;
+            margin: 80px auto;
             background: white;
             padding: 30px;
-            width: 350px;
             border-radius: 10px;
-            text-align: center;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
         }
 
         h1 {
-            color: #1a237e;
+            text-align: center;
+            color: #0d47a1;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 15px 0;
         }
 
         a {
             display: block;
-            margin-top: 20px;
             padding: 12px;
-            background-color: #1a73e8;
+            background-color: #1976d2;
             color: white;
             text-decoration: none;
             border-radius: 6px;
+            text-align: center;
             font-size: 16px;
         }
 
         a:hover {
-            background-color: #0c47a1;
+            background-color: #0d47a1;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 14px;
+            color: gray;
         }
     </style>
 </head>
 <body>
 
-    <div class="card">
-        <h1>CSE-2 Student Portal</h1>
-        <p>KL University</p>
+    <div class="container">
+        <h1>KL Registration Portal</h1>
 
-        <a href="https://cse2-portal-final.vercel.app" target="_blank">
-            Open CSE-2 Portal
-        </a>
+        <ul>
+            <li>
+                <a href="https://cse2-portal-final.vercel.app" target="_blank">
+                    CSE-2 Student Portal
+                </a>
+            </li>
+        </ul>
+
+        <footer>
+            © KL University
+        </footer>
     </div>
 
 </body>
 </html>
-
